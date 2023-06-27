@@ -93,13 +93,13 @@ const Sidebar = () => {
           </MenuItem>
           {/* User */}
           {!isCollapsed && (
-            <Box mb="25px">
+            <Box mb="15px">
               <Box display="flex" justifyContent={"center"} alignItems="center">
                 <img
                   alt="profile-user"
-                  width={"100px"}
-                  height={"100px"}
-                  src={`../../assets/user.png`}
+                  width={"150px"}
+                  height={"150px"}
+                  src={`../../assets/user.jpeg`}
                   style={{ cursor: "pointer", borderRadius: "50%" }}
                 />
               </Box>
@@ -132,7 +132,7 @@ const Sidebar = () => {
             <Typography
               variant="h6"
               color={colors.grey[300]}
-              sx={{ m: "15px 0 5px 20px" }}
+              sx={{ m: "10px 0 5px 20px" }}
             >
               Data
             </Typography>
@@ -160,7 +160,7 @@ const Sidebar = () => {
             <Typography
               variant="h6"
               color={colors.grey[300]}
-              sx={{ m: "15px 0 5px 20px" }}
+              sx={{ m: "10px 0 5px 20px" }}
             >
               Pages
             </Typography>
@@ -188,7 +188,7 @@ const Sidebar = () => {
             <Typography
               variant="h6"
               color={colors.grey[300]}
-              sx={{ m: "15px 0 5px 20px" }}
+              sx={{ m: "10px 0 5px 20px" }}
             >
               Charts
             </Typography>
