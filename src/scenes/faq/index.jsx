@@ -3,9 +3,6 @@ import {
   AccordionDetails,
   AccordionSummary,
   Box,
-  List,
-  ListItem,
-  ListItemText,
   Typography,
   useTheme,
 } from "@mui/material";
